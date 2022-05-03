@@ -341,7 +341,7 @@
       </button>
       <h3 class="form-header">Zostaw swoje dane w formularzu poniżej</h3>
       <form name="modal-form" class="modal-form">
-        <label for="modal-user-name" class="modal-label" autocomplete="off">
+        <label for="modal-user-name" class="modal-label">
           Imię
         </label>
         <span class="modal-form-input-wrapper">
@@ -350,7 +350,7 @@
             <use href="./images/sprite.svg#icon-person"></use>
           </svg>
         </span>
-        <label for="modal-phone" class="modal-label" autocomplete="off">
+        <label for="modal-phone" class="modal-label">
           Telefon
         </label>
         <span class="modal-form-input-wrapper">
@@ -359,20 +359,20 @@
             <use href="./images/sprite.svg#icon-phone"></use>
           </svg>
         </span>
-        <label for="modal-email" class="modal-label" autocomplete="off">
+        <label for="modal-email" class="modal-label" >
           Email
         </label>
         <span class="modal-form-input-wrapper">
-          <input type="text" id="name" name="name" class="modal-input"><svg class="modal-form-icon" width="15"
+          <input type="text" id="modal-email" name="modal-email" class="modal-input"><svg class="modal-form-icon" width="15"
             height="13">
             <use href="./images/sprite.svg#icon-email"></use>
           </svg>
         </span>
-        <label for="comment" class="modal-label" autocomplete="off">
+        <label for="comment" class="modal-label">
           Komentarz
         </label>
         <span class="modal-form-input-wrapper">
-          <textarea id="comment" name="comment" rows="5" placeholder=" Wprowadź tekst" wrap="hard"
+          <textarea id="comment" name="comment" rows="5" cols="10" placeholder=" Wprowadź tekst" wrap="hard"
             class="modal-textarea-input"></textarea></span>
         <input class="modal-policy-checkbox" type="checkbox" name="agreement" id="checkbox">
         <label class="modal-policy" for="checkbox"> Oświadczam iż akceptuję <a class="modal-links" href="">Regulamin</a>
